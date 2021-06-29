@@ -21,6 +21,7 @@ def set_full_insert(sett):
             if sett['set_name'] == rel['set_name']:
                 rel['card_cod'] = card['id']
                 card_set.card_set_insert(rel)
+        print(card['name'])
                 
 
 if __name__ == '__main__':
