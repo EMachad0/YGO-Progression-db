@@ -1,16 +1,31 @@
-# This is a sample Python script.
+import json
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import ygoprodeck
 
+from notebooks import sets, cards, card_set
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+ygo = ygoprodeck.YGOPro()
 
+ALL_SETS = "all_sets.json"
 
-# Press the green button in the gutter to run the script.
+sets_to_insert = {
+    'Legend of Blue Eyes White Dragon'
+}
+
+def set_full_insert(sett):
+    sets.set_insert(sett)
+    crd = ygo.get_cards(cardset=sett['set_name'])['data']
+    for card in crd:
+        cards.card_insert(card)
+        for rel in card['card_sets']:
+            if sett['set_name'] == rel['set_name']:
+                rel['card_cod'] = card['id']
+                card_set.card_set_insert(rel)
+                
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    f = open(ALL_SETS, "r")
+    j = json.loads(f.read())
+    for s in j:
+        if s['set_name'] in sets_to_insert:
+            set_full_insert(s)
