@@ -1,1 +1,0 @@
-from notebooks.card_set.card_set import card_set_insert

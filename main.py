@@ -2,7 +2,7 @@ import json
 
 import ygoprodeck
 
-from notebooks import sets, cards, card_set
+from notebooks import sets, cards, pull
 
 ygo = ygoprodeck.YGOPro()
 
@@ -20,7 +20,7 @@ def set_full_insert(sett):
         for rel in card['card_sets']:
             if sett['set_name'] == rel['set_name']:
                 rel['card_cod'] = card['id']
-                card_set.card_set_insert(rel)
+                pull.card_set_insert(rel)
         print(card['name'])
                 
 
