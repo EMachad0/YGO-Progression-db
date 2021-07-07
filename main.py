@@ -9,7 +9,11 @@ ygo = ygoprodeck.YGOPro()
 ALL_SETS = "all_sets.json"
 
 sets_to_insert = {
-    'Legend of Blue Eyes White Dragon'
+    'Legend of Blue Eyes White Dragon',
+    'Metal Raiders',
+    'Magic Ruler',
+    "Pharaoh's Servant",
+    'Labyrinth of Nightmare'
 }
 
 def set_full_insert(sett):
