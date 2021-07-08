@@ -6,7 +6,9 @@ create table set(
     set_name varchar(100),
     num_of_cards int,
     release_date date,
-    primary key (set_cod) 
+    banlist_release int,
+    banlist_end int,
+    foreign key (banlist_release) references banlist on update cascade on delete set null,
+    foreign key (banlist_end) references banlist on update cascade on delete set null,
+    primary key (set_cod)
 );
-
-
