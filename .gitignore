@@ -337,6 +337,7 @@ cython_debug/
 # IntelliJ project files
 .idea
 *.iml
+in
 out
 gen
 ### VirtualEnv template
