@@ -20,7 +20,7 @@ def set_full_insert(sett):
     sets.set_insert(sett)
     crd = ygo.get_cards(cardset=sett['set_name'])['data']
     for card in crd:
-        card["desc"] = card["desc"].replace('"', '&#34;')
+        card["desc"] = card["desc"].replace('"', '&#34;').replace("'", '&#33;')
         cards.card_insert(card)
         for rel in card['card_sets']:
             if sett['set_name'] == rel['set_name']:
