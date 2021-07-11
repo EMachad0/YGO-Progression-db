@@ -43,7 +43,7 @@ Hovewer, currently the project has monetary limitations, I can't pay for the ser
 **With the current server there is a limit of 10000 database lines, that's why there are many sets missing and a per server player limit.**
 (there exist more cards than database lines).
 
-(donate here)
+[Buy my a Ko-fi](https://ko-fi.com/ygoprogressionbot)
 
 # User Guide
 
