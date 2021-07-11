@@ -49,17 +49,19 @@ Hovewer, currently the project has monetary limitations, I can't pay for the ser
 
 To do
 
+# Dev Guide
+
+To do
+
 # Credits
 
 Credit where credit is due
 
-(todo) friends
+Special Thanks for all my friends who helped on the development, specialy [Igor](https://github.com/IgorFroehner), [Joao](https://github.com/joao-frohlich) and [Felipe]()
 
-(todo) cimooo
+Thanks to [Cimooo](https://www.youtube.com/channel/UCrEMDvUyGV1p66Vf5P0O1pg) for creating the Progression Series and being the inspiration of this project.
 
-(todo) imgs
-
-(todo) ygoprodeckapi
+Thanks to [YGOPRODECK](https://ygoprodeck.com/) for the great and well document api.
 
 # license
 
