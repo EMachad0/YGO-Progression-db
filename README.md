@@ -61,7 +61,7 @@ Special Thanks for all my friends who helped on the development, specialy [Igor]
 
 Thanks to [Cimooo](https://www.youtube.com/channel/UCrEMDvUyGV1p66Vf5P0O1pg) for creating the Progression Series and being the inspiration of this project.
 
-Thanks to [YGOPRODECK](https://ygoprodeck.com/) for the great and well document api.
+Thanks to [YGOPRODECK](https://ygoprodeck.com/) for the great and well documented api.
 
 # license
 
