@@ -22,28 +22,45 @@
 
 # Overview
 
-This Project aims to created a Safe Sealed Draft Yu-Gi-Oh format online experience similarly to the Yu-Gi-Oh Progression Series.
+This Project aims to created a Safe Sealed Draft Yu-Gi-Oh format online experience similar to the Yu-Gi-Oh Progression Series.
 
 The project curently is divided into four applications:
 
 * [YGO-Progression-Bot](https://github.com/EMachad0/YGO-Progression-Bot): The star of the project, this bot lets players open-packs and add cards to their collection while the admim configures from which set are those pack from, the amount of packs each player can open and the desired ban-list.
 
-* [YGO-Progression-Web](https://github.com/EMachad0/YGO-Progression-Web): The bulk of the project, this site lets players see their collection, build a deck and export it to battle on their prefed Yu-Gi-Oh dueling system.
+* [YGO-Progression-Web](https://github.com/EMachad0/YGO-Progression-Web): The bulk of the project, built using Vue.js, this site lets players see their collection, build a deck and export it to battle on their prefed Yu-Gi-Oh dueling system.
 
-* [YGO-Progression-Web-Back](https://github.com/EMachad0/YGO-Progression-Web-Back): 
+* [YGO-Progression-Web-Back](https://github.com/EMachad0/YGO-Progression-Web-Back): The Back Bone of the project, this Flask/SQLAlchemy application exposes the card/set/banlist/player database for the site. 
 
-* [YGO-Progression-db](https://github.com/EMachad0/YGO-Progression-db): 
+* [YGO-Progression-db](https://github.com/EMachad0/YGO-Progression-db): The less exciting part of the project, scripts for getting and parsing yu-gi-oh data and adding those to the database for the others applications to use.
 
 # Contribute
 
-# installation
+This project was developed by a single Brazilian CS Student, while I don't expect to live by this project, I do plan to continue improving this for years to come as this is such a passion project and the biggest thing I have ever built.
 
-# license
+Hovewer, currently the project has monetary limitations, I can't pay for the servers this project runs on, that's why I need your contribution.
 
-Released under the [MPL 2.0](https://www.mozilla.org/en-US/MPL/) license.
+**With the current server there is a limit of 10000 database lines, that's why there are many sets missing and a per server player limit.**
+(there exist more cards than database lines).
+
+(donate here)
+
+# User Guide
+
+To do
+
+# Credits
+
+Credit where credit is due
+
+(todo) friends
 
 (todo) cimooo
 
 (todo) imgs
 
 (todo) ygoprodeckapi
+
+# license
+
+Released under the [MPL 2.0](https://www.mozilla.org/en-US/MPL/) license.
