@@ -1,9 +1,7 @@
-# YGO-Prog-db
-
 <h1 align="center">
   <br>
-    <img src="https://imgur.com/pY1WUFX.png" alt="YGO-Prog-db">
+    <img src="https://github.com/EMachad0/YGO-Prog-Web-Front/blob/main/src/assets/logo.png" alt="YGO-Prog-db">
   <br>
-  Red Discord Bot
+    YGO-Prog-db
   <br>
 </h1>
